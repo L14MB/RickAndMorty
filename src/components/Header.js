@@ -4,7 +4,7 @@ import '../styles/header.css'
 function Header() {
     return (
         <div className="header-container">
-            <a href="/home">Home</a>
+            <a href="/">Home</a>
             <a href="/about">About</a>
         </div>
     )

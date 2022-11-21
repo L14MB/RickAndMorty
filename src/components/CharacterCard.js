@@ -6,12 +6,7 @@ function CharacterCard({character}) {
         <div className="character-card">
             <img src={character.image}/>
             <p>{character.name}</p>
-            <button>See Details</button>
-
-
-
-
-
+            <a href={`/details/${character.id}`}><button>See Details</button></a>
         </div>
     )
 }

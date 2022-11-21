@@ -3,6 +3,7 @@ import {useEffect,useState} from 'react'
 import Header from './components/Header'
 import About from './pages/About'
 import HomePage from './pages/HomePage'
+import CharacterDetails from './pages/CharacterDetails';
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import axios from 'axios';
 
@@ -33,7 +34,8 @@ useEffect(()=>{
         <Header />
         <Routes>
             <Route path="/" element={<HomePage characters={characters}/>} />
-            <Route path="/about" element={<About />}/>
+            <Route path="/about" element={<About />} />
+            <Route path="/details/:characterId" element={<CharacterDetails />} />
         </Routes>
     </BrowserRouter>
   );

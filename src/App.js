@@ -33,7 +33,7 @@ useEffect(()=>{
     <BrowserRouter>
         <Header />
         <Routes>
-            <Route path="/" element={<HomePage characters={characters}/>} />
+            <Route path="/" element={<HomePage characters={characters} setCharacters={setCharacters}/>} />
             <Route path="/about" element={<About />} />
             <Route path="/details/:characterId" element={<CharacterDetails />} />
         </Routes>

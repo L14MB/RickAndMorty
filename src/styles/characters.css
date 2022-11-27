@@ -10,6 +10,7 @@
     box-shadow: 7px 8px 13px -4px rgba(0,0,0,0.47);
     -webkit-box-shadow: 7px 8px 13px -4px rgba(0,0,0,0.47);
     -moz-box-shadow: 7px 8px 13px -4px rgba(0,0,0,0.47);
+    font-family: sans-serif;
 }
 .character-card img{
     width:100%;
@@ -26,9 +27,20 @@
     background-color: rgb(102, 92, 171);
     color:white;
     cursor:pointer;
+    font-family: sans-serif;
 }
 
 /* DETAILS */
+
+.details-dark {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+.details-container-dark {
+    background-color: black;
+}
 
 .details-container{
     width:60%;
@@ -49,9 +61,11 @@
 }
 .character-info p{
     font-weight:bold;
+    font-family: sans-serif;
 }
 .character-info span{
     font-weight:lighter;
+    font-family: sans-serif;
 }
 .character-info button{
     background-color: rgb(102, 92, 171);
@@ -60,4 +74,6 @@
     padding:8px 16px;
     border-radius:8px;
     cursor:pointer;
+    font-family: sans-serif;
 }
+

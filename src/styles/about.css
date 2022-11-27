@@ -1,0 +1,11 @@
+.about-container {
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+}
+
+.about-dark {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
